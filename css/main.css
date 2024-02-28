@@ -1,0 +1,22 @@
+input {
+    display: block;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.answerHighlight {
+    animation-name: answerHighlight;
+    animation-duration: 1s;
+}
+
+@keyframes answerHighlight {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

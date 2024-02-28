@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Quiz</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="module" src="./main.js"></script>
+</head>
+<body>
+    <div id="welcomeMode">
+        <div id="wm_title"></div>
+        <button id="wm_playBtn"></button>
+    </div>
+   
+    <div id="settingsMode">
+        <div id="sm_maxTries"></div>
+        <input id="sm_maxTriesInput" type="text"/>
+        <div id="sm_maxNumber"></div>
+        <input id="sm_maxNumberInput" type="text"/>
+        <button id="sm_startBtn"></button>
+    </div>
+
+    <div id="gameMode">
+        <div id="gm_title"></div>
+        <div id="gm_tries"></div>
+        <div id="gm_response"></div>
+        <input id="gm_responseInput" type="text"/>
+        <button id="gm_verifyBtn"></button>
+    </div>
+
+     <div id="gameOver">
+        <div id="go_title"></div>
+        <div id="go_guess"></div>
+        <div id="go_tries"></div>
+        <button id="go_playAgainBtn"></button>
+    </div>
+</body>
+</html>
